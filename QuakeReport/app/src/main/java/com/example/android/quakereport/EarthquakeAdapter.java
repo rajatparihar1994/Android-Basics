@@ -13,7 +13,7 @@ import java.util.List;
  * Created by rajpa on 24-Oct-16.
  */
 
-public class EarthquakeAdapter extends ArrayAdapter<Earthquake> {
+public class  EarthquakeAdapter extends ArrayAdapter<Earthquake> {
 
     public EarthquakeAdapter(Context context, List<Earthquake> earthquakes) {
         super(context, 0, earthquakes);
